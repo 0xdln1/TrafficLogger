@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAR Logger Settings</title>
+    <style>
+        body { font-family: Arial, sans-serif; width: 250px; padding: 10px; }
+        label { font-weight: bold; display: block; margin-top: 10px; }
+        input, button { width: 100%; padding: 5px; margin-top: 5px; }
+        .toggle-container { display: flex; align-items: center; margin-top: 10px; }
+        .toggle-label { flex-grow: 1; }
+    </style>
+</head>
+<body>
+    <h2>HAR Logger Settings</h2>
+    
+    <label for="serverUrl">Server URL:</label>
+    <input type="text" id="serverUrl" placeholder="Enter server URL">
+    <button id="saveBtn">Save</button>
+
+    <div class="toggle-container">
+        <span class="toggle-label">Enable Logging:</span>
+        <input type="checkbox" id="toggleLogging">
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
