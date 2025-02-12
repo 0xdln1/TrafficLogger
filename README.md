@@ -2,7 +2,7 @@
 
 * Open extension tab > Enable developer mode > Load unpacked > Select the trafficlogger folder to Load the extension
 
-![Usage](usage.png)
+![Usage](static/usage.png)
 
 * Run server.py in vps ( change port acc to your need )
 * Set your server ip and port > Save
